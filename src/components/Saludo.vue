@@ -8,6 +8,13 @@
             <h2 class="mb-4">Formulario Saludo</h2>
             <div class="row mb-4">
                 <label for="" class="col-sm-2 col-form-label">Nombre</label>
+                <!--  
+                    v-model -> directiva que podemos utilizar tanto para mostrar datos, como para capturar cambios en los datos.
+                    Esta directiva es solo aplicable a:
+                        input 
+                        textarea
+                        select
+                -->
                 <div class="col-sm-10">
                     <input v-model='inputNombre' type="text" class="form-control" id="" placeholder="Ingrese su nombre.">
                 </div>
@@ -34,6 +41,9 @@
             <button @click='btnRegistrar' type="" class="btn btn-primary">Registrar</button>
 
             <!--  
+                v-if -> directiva que se utiliza como condicional para renderizar.
+                Los elementos pueden ser insertados/removidos en base a una condición o valor.
+
                 Se utilizan las directivas v-if y v-else-if para evaluar el valor de inputEdad.
                 Dependiendo del numero escrito, se imprimirá un mensaje debajo del botón indicando el rango etario del usuario.
             -->
