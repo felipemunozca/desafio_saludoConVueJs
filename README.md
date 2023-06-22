@@ -1,4 +1,9 @@
-# m6_ejercicio_comprobacion_s2
+# Curso Desarrollo de Aplicaciones Front-end Trainee 2023
+
+## Modulo 6 - Desarrollo de Interfaces Interactivas con Framework VUE
+Sesión 2
+
+REBOUND: MOSTRANDO DATOS DENTRO DE UN ALERT, UTILIZACIÓN DE V-MODEL Y V-IF.
 
 ## Project setup
 ```
